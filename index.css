@@ -1,0 +1,41 @@
+*{
+    font-family: sans-serif;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 5px;
+    border-width: solid;
+    border-color: black;
+}
+#col1, tr:first-child{
+    color:aqua;
+    font-size: 29px;
+    word-spacing: 1px;
+    
+}
+#num{
+    font-size: 35px;
+    color:dimgrey;
+}
+
+tr:nth-child(2){
+    opacity: 0.8;
+    size: 50px;
+    word-spacing: 2px;
+}
+
+#col, tr:nth-child(2){
+    font-size: 20px;
+    word-spacing: 2px;
+}
+.button{
+    background-color:dimgray ;
+    border:2px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
